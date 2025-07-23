@@ -50,7 +50,7 @@ const Home = () => {
 					{compra.map((element, index) => (
 						<div>
 							<li key={index}
-								className="d-flex justify-content-between"
+								className="d-flex justify-content-between border"
 								onMouseEnter={()=>setHover(index)}
 								onMouseLeave={()=>setHover(null)}
 
